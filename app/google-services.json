@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "210437149483",
+    "firebase_url": "https://game-82953.firebaseio.com",
+    "project_id": "game-82953",
+    "storage_bucket": "game-82953.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210437149483:android:31f856a664b41a1b726b6e",
+        "android_client_info": {
+          "package_name": "com.vinay.game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210437149483-pfh72dfmd32impnmgfsubnj8ltn010vq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vinay.game",
+            "certificate_hash": "24433475c4618e029966aca700f1b53400001645"
+          }
+        },
+        {
+          "client_id": "210437149483-hbcbt8v4f6k8qf3fulm7cvamoftbjfbg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfdh1gs_pIc5T8gCLYuRuoeEhM3BjrDRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210437149483-hbcbt8v4f6k8qf3fulm7cvamoftbjfbg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
