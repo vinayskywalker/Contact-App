@@ -19,6 +19,6 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button1"
-        android:text="Click Here to Start Animation" />
+        android:text="Click Here to Start" />
 
 </RelativeLayout>

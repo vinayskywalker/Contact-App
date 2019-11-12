@@ -68,29 +68,29 @@ public class MainActivity extends AppCompatActivity {
         EnableRuntimePermission();
         GetContactsIntoArrayList();
 
-        arrayAdapter = new ArrayAdapter<String>(
-                MainActivity.this,
-                R.layout.contact_items_listview,
-                R.id.textView, StoreContacts
-        );
-        //listView.setAdapter(arrayAdapter);
+//        arrayAdapter = new ArrayAdapter<String>(
+//                MainActivity.this,
+//                R.layout.contact_items_listview,
+//                R.id.textView, StoreContacts
+//        );
+//        listView.setAdapter(arrayAdapter);
 
 
-//        button.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                GetContactsIntoArrayList();
-//
-//                arrayAdapter = new ArrayAdapter<String>(
-//                        MainActivity.this,
-//                        R.layout.contact_items_listview,
-//                        R.id.textView, StoreContacts
-//                );
-//                //listView.setAdapter(arrayAdapter);
-//
-//
-//            }
-//        });
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                GetContactsIntoArrayList();
+
+                arrayAdapter = new ArrayAdapter<String>(
+                        MainActivity.this,
+                        R.layout.contact_items_listview,
+                        R.id.textView, StoreContacts
+                );
+                listView.setAdapter(arrayAdapter);
+
+
+            }
+        });
 
     }
 
@@ -106,9 +106,9 @@ public class MainActivity extends AppCompatActivity {
             i++;
             contact c1 = new contact(name,phonenumber);
             String s = "contact"+i;
-            databaseReference = database.getReference().child(s);
-            databaseReference.setValue(c1);
-
+//            databaseReference = database.getReference().child(s);
+//            databaseReference.setValue(c1);
+//
             StoreContacts.add(name + " "  + ":" + " " + phonenumber);
         }
 
